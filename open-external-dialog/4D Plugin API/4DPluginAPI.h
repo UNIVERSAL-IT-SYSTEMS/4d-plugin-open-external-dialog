@@ -892,7 +892,7 @@ PA_Handle PA_PictureToGIF  ( void* picture, PA_long32 len );
 
 // dialog
 PA_Dial4D   PA_NewDialog           ( );
-PA_Dial4D   PA_OpenDialog          ( PA_Dial4D dialog, PA_Unichar* dialogName, PA_Unichar* windowTitle, char closeBox , PA_WindowLevel level = eWL_Dialog);
+PA_Dial4D   PA_OpenDialog          ( PA_Dial4D dialog, PA_Unichar* dialogName, PA_Unichar* windowTitle, char closeBox, PA_WindowLevel level );
 char PA_ModalDialog                ( PA_Dial4D dialog, PA_Unichar* variableName );
 void PA_CloseDialog                ( PA_Dial4D dialog );
 void PA_Dial4DCancelValidate       ( PA_Dial4D dialog, char cancel );

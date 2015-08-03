@@ -132,7 +132,7 @@ PA_long32 PA_GetHandleSize( PA_Handle handle )
 	Call4D( EX_HANDLE_MANAGER, &eb );
 	sErrorCode = (PA_ErrorCode) eb.fError;
 
-	return (PA_long32)eb.fParam2;
+	return (PA_long32)eb.fParam2;   
 }
 
 
@@ -7249,7 +7249,7 @@ PA_Dial4D PA_NewDialog()
 }
 
 
-PA_Dial4D PA_OpenDialog( PA_Dial4D dialog, PA_Unichar* dialogName, PA_Unichar* windowTitle, char closeBox, PA_WindowLevel level)
+PA_Dial4D PA_OpenDialog( PA_Dial4D dialog, PA_Unichar* dialogName, PA_Unichar* windowTitle, char closeBox, PA_WindowLevel level )
 {
 	EngineBlock eb;
 	PA_Rect rect = {0,0,0,0}; // will use default dialog rect
@@ -7260,7 +7260,7 @@ PA_Dial4D PA_OpenDialog( PA_Dial4D dialog, PA_Unichar* dialogName, PA_Unichar* w
 	eb.fOneToMany = 0;	// hidden
 	eb.fManyToOne = closeBox;
 	eb.fParam2 = (sLONG_PTR) & rect;
-	eb.fParam3 = level;	// PA_WindowLevel
+	eb.fParam3 = level;	
 	eb.fShort = 1;	// modal
 
 	PA_CopyUnichars( dialogName, eb.fUName, sizeof(eb.fUName) );
