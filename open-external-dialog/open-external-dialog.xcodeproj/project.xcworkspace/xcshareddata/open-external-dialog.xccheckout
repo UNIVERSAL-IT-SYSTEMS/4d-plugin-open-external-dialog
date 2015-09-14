@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77567BFF-4B60-402F-BA89-BE8A931A7997</string>
+	<key>IDESourceControlProjectName</key>
+	<string>open-external-dialog</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>479C5D4514255C5E31C1E5B21D4FED269181F06F</key>
+		<string>https://github.com/miyako/4d-plugin-open-external-dialog.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>open-external-dialog/open-external-dialog.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>479C5D4514255C5E31C1E5B21D4FED269181F06F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miyako/4d-plugin-open-external-dialog.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>479C5D4514255C5E31C1E5B21D4FED269181F06F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>479C5D4514255C5E31C1E5B21D4FED269181F06F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4d-plugin-open-external-dialog</string>
+		</dict>
+	</array>
+</dict>
+</plist>
